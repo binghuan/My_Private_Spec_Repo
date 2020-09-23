@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     spec.homepage      = 'https://github.com/binghuan/privatespecrepo'
     spec.authors       = { 'BH_Lin' => 'binghuanlin@gmail.com' }
     spec.summary       = 'ARC and GCD Compatible Reachability Class for iOS and OS X.'
-    spec.source        = { :git => 'https://github.com/binghuan/Hello.git', :tag => 'v1.0.0' }
+    spec.source        = { :git => 'https://github.com/binghuan/Hello.git', :tag => "v#{spec.version}" }
   
     spec.platform     = :ios, '9.0'
   
